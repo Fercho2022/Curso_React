@@ -19,6 +19,11 @@ function App() {
           Contacto
         
         </NavLink>
+        <NavLink to="/nosotros" className="btn btn-dark" activeClassName="active">
+          
+          Nosotros
+        
+        </NavLink>
       
       </div>
      
