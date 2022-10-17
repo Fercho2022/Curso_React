@@ -14,12 +14,12 @@ function App() {
         <Link to="/" className="btn btn-dark ">
           Inicio
         </Link>
-        <NavLink to="/contacto" className="btn btn-dark" activeClassName="active">
+        <NavLink to="/contacto" className="btn btn-dark" activeclassname="active">
           
           Contacto
         
         </NavLink>
-        <NavLink to="/nosotros" className="btn btn-dark" activeClassName="active">
+        <NavLink to="/nosotros" className="btn btn-dark" activeclassname="active">
           
           Nosotros
         
