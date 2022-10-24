@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes, Link, NavLink} from "react-router-dom";
 import Contacto from './components/Contacto';
 import Nosotros from './components/Nosotros';
 import Inicio from './components/Inicio';
+import User from './components/User';
 
 // las rutas van de lo mas especifico a lo mas general
 function App() {
@@ -30,7 +31,7 @@ function App() {
       <hr />
       
       <Routes>
-
+        <Route path="/nosotros/:id" element={<User />}/>
         <Route path="/contacto" element={<Contacto />} /> 
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/" element={<Inicio />} />
